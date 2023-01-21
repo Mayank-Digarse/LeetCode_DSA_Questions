@@ -8,7 +8,7 @@ class Solution {
   public:
     void printTriangle(int n) {
         // code here
-        int start = 1; 
+        int start; 
         for(int i =0 ; i<n; i++){
             if(i%2 == 0 ) start = 1; 
             else start = 0;
